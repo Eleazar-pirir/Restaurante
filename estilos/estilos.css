@@ -3,19 +3,130 @@
     padding: 0;
 }
 
+body{
+    background: linear-gradient(to left, rgb(182, 179, 179),rgb(123, 31, 31),rgb(65, 63, 63));
+}
+
 h1{
     width: 100%;
     height: 35px;
-    background-color: red;
+    background: linear-gradient(to right, brown, yellow);
     text-align: center;
 }
 
 .barra{
-    background-color: grey;
-    height: 200px;
-    width: 200px;
-    margin: 30px 10px;
+    background-color: rgb(138, 50, 0);
+    height: 220px;
+    width: 250px;
+    margin: 30px 100px;
     text-align: center;
-   
+    text-decoration: none;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.barra li,a{
+    margin: 10px;
+    text-decoration: none;
 
 }
+
+.barra a{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 5px;
+    border-radius: 5px ;
+}
+
+.grande h2{
+    background:linear-gradient(to right, brown,grey);
+    width: 40%;
+    height: 40px;
+    margin: 30px 30px;
+    text-align: center;
+}
+.grande{
+    display: flex;
+  
+}
+.grande p{
+    background-color: rgb(82, 111, 83);
+    margin: 30px -10px;
+}
+
+.e{
+    background-color: rgb(104, 35, 35);
+    width: 300px;
+    height: 40px;
+    margin: 30px 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.r{
+    width: 100%;
+    height: 190px;
+    font-size: 20px;
+    
+}
+
+h3{
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    background-color: rgb(172, 172, 34);
+    text-align: center;
+}
+
+.re img{
+    margin: 10px 50px;
+    border-radius: 25px;
+    
+}
+
+.re .rem{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+    margin: 0 px;
+    font-size: 25px;
+    gap: 200px;
+}
+
+.re .jaja{
+   margin: 10px 77px;
+}
+
+.rem .ta{
+    width: 100px; 
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    background-color: rgb(138, 35, 35);
+}
+.rem .te{
+    width: 150px; 
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    background-color: rgb(138, 35, 35);
+}
+.rem .ti{
+    width: 100px; 
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    background-color: rgb(138, 35, 35);
+}
+.rem .to{
+    width: 125px; 
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    background-color: rgb(138, 35, 35);
+}
+
+/* fin css Eleazar */
