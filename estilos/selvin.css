@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.barra{
+    width: 100%;
+    background: linear-gradient(to right, brown, rgb(138, 50, 0));
+    padding: 20px;
+}
+
+.barra h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.barra ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.barra a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255,255,255,0.15);
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.barra a:hover{
+    background-color: gold;
+    color: black;
+}
+
+
+
+.contenedor-selvin1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+
+
+.selvn-2 p{
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+.selvin-3{
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.reservacion{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button{
+    width: 150px;
+    height: 45px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(7, 197, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .barra ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-selvin1{
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+
+    .selvn-2 p{
+        font-size: 22px;
+    }
+
+    .selvin-3{
+        max-width: 100%;
+    }
+}
