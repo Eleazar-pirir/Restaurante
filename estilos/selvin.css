@@ -9,7 +9,7 @@ body{
     font-family: Arial, sans-serif;
 }
 
-
+/* BARRA ARRIBA */
 
 .barra{
     width: 100%;
@@ -45,7 +45,7 @@ body{
     color: black;
 }
 
-
+/* CONTENIDO */
 
 .contenedor-selvin1{
     display: grid;
@@ -55,7 +55,7 @@ body{
     margin: 30px auto;
 }
 
-
+/* INFORMACIÓN */
 
 .selvn-2 p{
     font-size: 30px;
@@ -63,6 +63,7 @@ body{
     text-align: center;
 }
 
+/* FORMULARIO */
 
 .selvin-3{
     width: 100%;
@@ -111,6 +112,7 @@ button:hover{
     color: white;
 }
 
+/* TELÉFONO */
 
 @media screen and (max-width: 768px){
 
