@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -22,15 +23,11 @@ h1{
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
-    
-    
-    
 }
 
 .barra li,a{
     margin: 10px;
     text-decoration: none;
-
 }
 
 .barra a{
@@ -47,10 +44,11 @@ h1{
     margin: 30px 30px;
     text-align: center;
 }
+
 .grande{
     display: flex;
-  
 }
+
 .grande p{
     background-color: rgb(82, 111, 83);
     margin: 30px -10px;
@@ -69,7 +67,6 @@ h1{
     width: 100%;
     height: 190px;
     font-size: 20px;
-    
 }
 
 h3{
@@ -80,53 +77,176 @@ h3{
     text-align: center;
 }
 
+.re{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .re img{
-    margin: 10px 50px;
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px;
     border-radius: 25px;
-    
 }
 
 .re .rem{
     display: flex;
     width: 100%;
     height: 40px;
-    justify-content: space-evenly;
-    margin: 0 px;
+    justify-content: center;
+    margin: 0px;
     font-size: 25px;
-    gap: 200px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .re .jaja{
-   margin: 10px 77px;
+    margin: 10px;
 }
 
 .rem .ta{
-    width: 100px; 
-    border-radius: 10px;
-    text-align: center;
-    height: 35px;
-    background-color: rgb(138, 35, 35);
-}
-.rem .te{
-    width: 150px; 
-    border-radius: 10px;
-    text-align: center;
-    height: 35px;
-    background-color: rgb(138, 35, 35);
-}
-.rem .ti{
-    width: 100px; 
-    border-radius: 10px;
-    text-align: center;
-    height: 35px;
-    background-color: rgb(138, 35, 35);
-}
-.rem .to{
-    width: 125px; 
+    width: 100px;
     border-radius: 10px;
     text-align: center;
     height: 35px;
     background-color: rgb(138, 35, 35);
 }
 
-/* fin css Eleazar */
+.rem .te{
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    background-color: rgb(138, 35, 35);
+}
+
+.rem .ti{
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    background-color: rgb(138, 35, 35);
+}
+
+.rem .to{
+    width: 125px;
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    background-color: rgb(138, 35, 35);
+}
+
+/* TELEFONOS */
+
+@media (max-width: 767px){
+
+    .grande{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .barra{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .grande h2{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .e{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .r{
+        height: auto;
+    }
+
+    .re{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .re img{
+        width: 90%;
+        max-width: 320px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .re .rem{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        height: auto;
+    }
+
+    h3{
+        height: auto;
+    }
+}
+
+
+/* TABLETS */
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .grande{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .barra{
+        margin: 20px;
+    }
+
+    .grande h2{
+        width: 70%;
+        height: auto;
+    }
+
+    .e{
+        width: 70%;
+        height: auto;
+    }
+
+    .r{
+        height: auto;
+    }
+
+    .re{
+        justify-content: center;
+    }
+
+    .re img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .re .rem{
+        gap: 30px;
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
+
+/* COMPUTADORAS */
+
+
+@media (min-width: 1024px){
+
+    .grande{
+        display: flex;
+    }
+}
